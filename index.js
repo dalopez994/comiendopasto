@@ -1,13 +1,13 @@
-let ingrediente1 = prompt("Cual sera tu ingrediente principal?" + "Arroz, Pollo, Lechuga");
-while(((ingrediente1=="Arroz")||(ingrediente1=="Pollo")||(ingrediente1=="Lechuga") )==false ){
-    ingrediente1 = prompt("No tenemos "+ingrediente1+" "+"Cual sera tu ingrediente principal? Arroz, Pollo, Lechuga");
+let ingrediente1 = prompt("Cual sera tu ingrediente principal? Arroz, Pollo, Lechuga").toUpperCase() ;
+while(((ingrediente1=="ARROZ")||(ingrediente1=="POLLO")||(ingrediente1=="LECHUGA") )==false ){
+    ingrediente1 = prompt("No tenemos "+ingrediente1+". "+"Cual sera tu ingrediente principal? Arroz, Pollo, Lechuga");
 }
 alert ("Agregamos "+ingrediente1);
 
 
-let ingrediente2 = prompt("Cual sera tu ingrediente secundario?" + "Tomate, Berenjena, Cebolla");
-while(((ingrediente2=="Tomate")||(ingrediente2=="Berenjena")||(ingrediente2=="Cebolla") )==false ){
-    ingrediente2 = prompt("No tenemos "+ingrediente2+" "+"Cual sera tu ingrediente secundario? Tomate, Berenjena, Cebolla");
+let ingrediente2 = prompt("Cual sera tu ingrediente secundario? Tomate, Berenjena, Cebolla").toUpperCase() ;
+while(((ingrediente2=="TOMATE")||(ingrediente2=="BERENJENA")||(ingrediente2=="CEBOLLA") )==false ){
+    ingrediente2 = prompt("No tenemos "+ingrediente2+". "+"Cual sera tu ingrediente secundario? Tomate, Berenjena, Cebolla");
 }
 alert ("Agregamos "+ingrediente2);
 
@@ -16,27 +16,27 @@ alert ("Agregamos "+ingrediente2);
 
 
 switch(ingrediente1) {
-    case "Arroz":
+    case "ARROZ":
         valor1=30;
         break;
-    case "Pollo":
+    case "POLLO":
         valor1=100;
         break;
-    case "Lechuga":
+    case "LECHUGA":
         valor1=60;
         break;
 };
 
 switch(ingrediente2) {
-    case "Tomate":
+    case "TOMATE":
         valor2=30;
         break;
-    case "Berenjena":
+    case "BERENJENA":
         valor2=60;
         break;
-    case "Cebolla":
+    case "CEBOLLA":
         valor2=10;
         break;
 };
 
-alert ("Ensalada: "+ingrediente1 +" "+"con "+ ingrediente2 + " "+"Total: $ "+(valor1+valor2));
+alert ("Ensalada: "+ingrediente1 +" "+"con "+ ingrediente2 + ". "+"Total: $ "+(valor1+valor2));

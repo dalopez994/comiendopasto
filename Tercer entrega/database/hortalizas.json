@@ -1,0 +1,15 @@
+[
+
+    {"nombre": "Zanahoria", "precio": 5500, "id": 5,"img": "assets/img/zanahoria.png"},
+    {"nombre": "Papa", "precio": 4500, "id": 4,"img": "assets/img/papa.png"},
+    {"nombre": "Batata", "precio": 4500, "id": 4,"img": "assets/img/batata.png"},
+    {"nombre": "Cebolla", "precio": 4500, "id": 4,"img": "assets/img/cebolla.png"},
+    {"nombre": "Cebolla Morada", "precio": 4500, "id": 4,"img": "assets/img/cebolla_morada.png"}
+    
+
+
+    
+
+  ]
+
+

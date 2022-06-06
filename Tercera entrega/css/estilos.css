@@ -1,0 +1,62 @@
+img{
+    width: 40%;
+
+}
+
+main ul{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(175, 175, 247);
+
+
+
+
+    grid-gap: 10px;
+}
+
+
+main li{
+    display: flex;
+    justify-content: space-between;
+    border: 10px;
+    border-color: beige;
+    border-style: double;
+
+
+}
+
+body{
+    background-color: black;
+}
+
+header img{
+    width: 10%;;
+}
+
+header {
+    grid-area: header;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    color: beige;
+    font-size: 80px;
+}
+
+header section {
+    color: white;
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2{
+    color: white;
+}
+
+button{
+
+    align-self:center;
+    justify-self: end;
+
+}

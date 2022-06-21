@@ -1,0 +1,24 @@
+[
+  {"tipo":"Verdura","nombre": "Lechuga", "precio": 50, "id": 1, "img": "assets/img/lechuga.png"},
+  {"tipo":"Verdura","nombre": "Rucula", "precio": 80, "id": 2,"img": "assets/img/rucula.png"},
+  {"tipo":"Verdura","nombre": "Brocoli", "precio": 70, "id": 3,"img": "assets/img/brocoli.png"},
+  {"tipo":"Verdura","nombre": "Albahaca", "precio": 50, "id": 4,"img": "assets/img/albahaca.png"},
+  {"tipo":"Verdura","nombre": "Repollo", "precio": 50, "id": 5,"img": "assets/img/repollo.png"},
+  {"tipo":"Verdura","nombre": "Berenjena", "precio": 80, "id": 6,"img": "assets/img/berenjena.png"},
+  {"tipo":"Verdura","nombre": "Palta", "precio": 100, "id": 7,"img": "assets/img/palta.png"},
+  {"tipo":"Verdura","nombre": "Pepino", "precio": 100, "id": 8,"img": "assets/img/pepino.png"},
+  {"tipo":"Hortaliza","nombre": "Zanahoria", "precio": 60, "id": 9,"img": "assets/img/zanahoria.png"},
+  {"tipo":"Hortaliza","nombre": "Papa", "precio": 30, "id": 10,"img": "assets/img/papa.png"},
+  {"tipo":"Hortaliza","nombre": "Batata", "precio": 60, "id": 11,"img": "assets/img/batata.png"},
+  {"tipo":"Hortaliza","nombre": "Cebolla", "precio": 40, "id": 12,"img": "assets/img/cebolla.png"},
+  {"tipo":"Hortaliza","nombre": "CebollaM", "precio": 50, "id": 13,"img": "assets/img/cebolla_morada.png"},
+  {"tipo":"Otro","nombre": "Arroz", "precio": 50, "id": 14,"img": "assets/img/arroz.png"},
+  {"tipo":"Otro","nombre": "Pollo", "precio": 100, "id": 15,"img": "assets/img/pollo.png"},
+  {"tipo":"Otro","nombre": "Atun", "precio": 100, "id": 16,"img": "assets/img/atun.png"}
+  
+
+
+
+  
+
+]

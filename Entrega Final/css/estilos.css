@@ -1,0 +1,93 @@
+img{
+    width: 40%;
+
+}
+
+body{
+    background-color: black;
+}
+
+button{
+
+    align-self:center;
+    justify-self: end;
+
+}
+
+
+main {
+    display: grid;
+    grid-template-areas: "mensaje carro" "productos productos";
+    background-color: burlywood;
+    margin: 50px;
+
+}
+
+.table {
+    grid-area: carro;
+    align-items: center;
+    justify-content:stretch
+}
+
+#cards {
+    grid-area: productos;
+    border: 10px;
+    border-color: beige;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: burlywood;
+    grid-gap: 10px;
+}
+
+
+
+main section{
+    grid-area: mensaje;
+    font-size: 50px;
+    align-self: center;
+    text-align: center;
+}
+
+.itemtienda {
+    display: flex;
+    border: 1px;
+    border-color: brown;
+    border-style:solid;
+    background-color: white;
+}
+
+
+/*Productos*/
+.Verdura {
+    background-color: lightgreen;
+    font-size: 30px;
+}
+
+.Hortaliza {
+    background-color: beige;
+    font-size: 30px;
+}
+
+.Otro {
+    background-color: lightblue;
+    font-size: 30px;
+}
+
+/*Header*/
+header img{
+    width: 10%;;
+}
+header {
+    grid-area: header;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    color: beige;
+    font-size: 80px;
+
+}
+header section {
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
